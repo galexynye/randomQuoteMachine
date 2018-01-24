@@ -1,0 +1,46 @@
+html, body {height:100%}
+
+body { font-family:courier;   background-color:#66b3ff; text-align:center; }
+
+
+.flexCenter {
+  display:flex;
+	height:70%;
+	flex-direction:column;
+  justify-content:center;
+	align-items:center;
+	
+}
+
+#quoteBox {
+  background-color:black;
+	margin-top:50px;
+  max-width:500px;
+  padding:10px;
+  border-radius:20px;
+}
+
+#quote {font-size:25px;}
+
+.theButtons {
+  display:flex;
+  justify-content:space-between;
+  padding:10px 30px 20px 30px;
+	
+	
+}
+
+.theButtons button {
+/*   border-radius:5px; */
+	border:none;
+	font-family:courier;
+}
+
+.theButtons button:hover{ background-color:lightgrey;  cursor:pointer;} 
+
+ .fa {color:white;} 
+
+.fa:hover {color:#6FB8F0;} 
+
+
+#createdBy a{color:black; text-decoration:none;}
